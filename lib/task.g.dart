@@ -1,10 +1,6 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+/
 
 part of 'task.dart';
-
-// **************************************************************************
-// TypeAdapterGenerator
-// **************************************************************************
 
 class TaskItemAdapter extends TypeAdapter<TaskItem> {
   @override
