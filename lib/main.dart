@@ -6,11 +6,10 @@ import 'task_home_page.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize Hive and open a box for tasks
   await Hive.initFlutter();
   Hive.registerAdapter(TaskAdapter());
   Hive.registerAdapter(TaskItemAdapter());
-  await Hive.openBox<Task>('tasksBox'); // Open the box to store tasks
+  await Hive.openBox<Task>('tasksBox'); 
 
   runApp(TaskApp());
 }
